@@ -1,0 +1,29 @@
+{
+  "name": "nsd-bot",
+  "version": "1.0.0",
+  "description": "National Security Directorate Discord Bot - Agency Management System",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js",
+    "setup-db": "node setup-db.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "roleplay",
+    "agency",
+    "nsd"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.14.0",
+    "dotenv": "^16.3.1",
+    "sqlite3": "^5.1.6",
+    "sqlite": "^5.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
